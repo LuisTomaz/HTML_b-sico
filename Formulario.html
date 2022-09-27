@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Formulário de cadastro</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>dados pessoais</legend>
+        <div>
+            <label for="nome_usuario">Nome:</label><br>
+            <input type="text" name="nome_usuario" />
+        </div>
+        <div>
+            <label for="suobrenome_suario">Sobrenome:</label><br>
+            <input type="text" name="sobrenome_usuario" />
+        </div>
+        <div>
+            <label for="idade_usuario">Idade:</label><br>
+            <input type="number" min="0" max="100" name="idade_usuario" />
+        </div>
+        <div>
+            <label for="email_usuario">Email:</label><br>
+            <input type="email" name="email_usuario" />
+        </div>
+        <div>
+            <label for="telefone_usuario">Telefone:</label><br>
+            <input type="number" name="telefone_usuario" />
+        </div>
+        <div>
+            <label for="cidade_usuario">Cidade:</label><br>
+            <input type="text" name="cidade_usuario" />
+        </div>
+        <div>
+            <label for="estado_usuario">Estado:</label><br>
+            <select name="estado" required>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>               
+            </select>
+        </div>
+        <div>
+            <label for="cep_usuario">CEP:</label><br>
+            <input type="text" name="cep_usuario" />
+        </div>
+        <div>
+            <label for="bio_usuario">Sobre mim:</label><br>
+            <textarea name="message" rows="10" cols="30">
+            </textarea>
+        </div>
+        <div>
+            <label for="idiomas_usuario">Idiomas:</label><br>
+            <label for="ingles">Inglês</label>
+            <input type="checkbox" id="idioma1" name="idiomas_usuario" value="ingles" /><br>
+            <label for="espanhol">Espanhol</label>
+            <input type="checkbox" id="idioma2" name="idiomas_usuario" value="espanhol" /><br>
+            <label for="italiano">Italiano</label>
+            <input type="checkbox" id="idioma3" name="idiomas_usuario" value="italiano" /><br>
+        </div>
+        </fieldset>
+            <fieldset>
+                <legend>Preferências do usuário</legend>
+            <div>
+                <label for="cor_usuario">Cor preferida:</label><br>
+                <input type="color" name="cor_usuario" /><br>
+            </div><div>
+                <label for="renda_usuario">Sua renda:</label><br>
+                <input type="number" min="0" name="renda_usuario" /><br>
+            </div><div>
+                <label for="time_usuario">Seu time:</label><br>
+                <input type="text" name="time_usuario" />
+            </div><div>
+                <label for="comida_usuario">Comida preferida:</label><br>
+                <input type="text" name="comida_usuario" />
+            </div><p>
+                <input type="submit" value="Cadastrar" />
+            </p>
+            </fieldset>
+    </form>
+</body>
+</html>
