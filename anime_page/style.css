@@ -49,6 +49,22 @@ header {
     background-image: url('../img/aot.jfif');
 }
 
+#img-3 {
+    background-image: url('../img/blue\ lock.jfif');
+}
+
+#img-4 {
+    background-image: url('../img/chainsaw.jfif');
+}
+
+#img-4 {
+    background-image: url('../img/one\ piece.png');
+}
+
+#img-5 {
+    background-image: url('../img/solo\ leveling.jfif');
+}
+
 /* footer */
 footer {
     background-color: #ffa500;
