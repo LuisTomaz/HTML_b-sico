@@ -17,7 +17,7 @@ body {
 
 #main-title {
     text-align: center;
-    padding: 0px;
+    padding: 40px;
     font-weight: bold;
     margin: 1rem;
     color: white;
@@ -33,13 +33,11 @@ body {
 #members {
     display: inline-flex;
     gap: 1rem;
-    color: white;
+    color: #fff;
     margin-top: 150px;
     font-size: 20px;
-}
-
-#member-card {
-    margin-left: 55px;
+    position: relative;
+    top: 150px;
 }
 
 .paiva {
@@ -62,20 +60,26 @@ body {
     text-align: center;
 }
 
+#member-card {
+    margin-left: 100px;
+}
+
 #member-card2 {
-    margin-left: 110px;
+    margin-left: 200px;
 }
 
 #member-card3 {
-    margin-left: 245px;
+    margin-left: 404px;
+    position: relative;
+    top: 20px;
 }
 
 #member-card4 {
-    margin-left: 235px;
+    margin-left: 400px;
 }
 
 #member-card5 {
-    margin-left: 120px;
+    margin-left: 200px;
 }
 
 #bottom {
@@ -86,8 +90,8 @@ body {
     font-weight: bold;
     cursor: pointer;
     transition: 0.5s;
-    margin-left: 620px;
-    margin-top: 120px;
+    margin-left: 900px;
+    margin-top: 270px;
     width: 100px;
 }
 
