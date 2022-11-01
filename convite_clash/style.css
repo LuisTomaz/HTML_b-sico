@@ -1,0 +1,97 @@
+* {
+    font-family: Helvetica;
+}
+
+header {
+    text-align: center;
+    color: white;
+    padding: 0px;
+    font-size: 20px;
+}
+
+body {
+    background-image: url('https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blta3a3b038e7f68e8f/5f73900fb46e6a468eb31842/Blog-4-Clash-Promo-Banner.jpg');
+    background-size: cover;
+    background-position: inherit;
+}
+
+#main-title {
+    text-align: center;
+    padding: 0px;
+    font-weight: bold;
+    margin: 1rem;
+    color: white;
+}
+
+.date {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+#members {
+    display: inline-flex;
+    gap: 1rem;
+    color: white;
+    margin-top: 150px;
+    font-size: 20px;
+}
+
+#member-card {
+    margin-left: 55px;
+}
+
+.paiva {
+    text-align: center;
+}
+
+.abilio {
+    text-align: center;
+}
+
+.eu {
+    text-align: center;
+}
+
+.mito {
+    text-align: center;
+}
+
+.lukoko {
+    text-align: center;
+}
+
+#member-card2 {
+    margin-left: 110px;
+}
+
+#member-card3 {
+    margin-left: 245px;
+}
+
+#member-card4 {
+    margin-left: 235px;
+}
+
+#member-card5 {
+    margin-left: 120px;
+}
+
+#bottom {
+    background-color: transparent;
+    color: red;
+    border: 2px solid #ff0000;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-left: 620px;
+    margin-top: 120px;
+    width: 100px;
+}
+
+#bottom:hover {
+    background-color: #000;
+    color: #fff;
+}
